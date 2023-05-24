@@ -1,0 +1,131 @@
+.homePageStyle {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.homePageHeader {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-style: italic;
+  box-shadow: 0px 0px 10px 5px rgb(63, 63, 97);
+}
+
+.homePageMainBody {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBox {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchBox h3 {
+  font-style: italic;
+}
+.searchInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(178, 182, 182, 0.392);
+  border-radius: 1rem;
+  padding-right: 5px;
+}
+
+.searchInput input {
+  margin-right: 5px;
+  height: 20px;
+  min-width: 250px;
+}
+.searchBtn {
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.searchBtn:hover {
+  color: blue;
+  text-shadow: 3px 3px 4px white;
+}
+.errorBox {
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-style: italic;
+  text-decoration: underline;
+}
+.Appears {
+  margin: 0;
+  margin-top: 5px;
+  color: rgb(59, 145, 2);
+}
+.NoAppears {
+  margin: 0;
+  margin-top: 5px;
+  color: red;
+}
+
+.QAmainBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.QAbox {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  box-shadow: 0px 0px 10px 0px black;
+  border-radius: 2rem;
+}
+.QAbox p {
+  padding: 15px;
+}
+
+.QAboxShowQ {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.borderBt {
+  border-bottom: 1px solid #000;
+}
+
+.PMicons {
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.PlusIcon:hover {
+  border-radius: 50%;
+  background-color: rgb(180, 248, 180);
+  color: white;
+}
+
+.MinusIcon:hover {
+  border-radius: 50%;
+  background-color: rgb(248, 180, 180);
+  color: white;
+}
