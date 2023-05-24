@@ -70,12 +70,12 @@ function Home() {
   return (
     <div className="homePageStyle">
       <header className="homePageHeader">
-        <h2>This a sample for Question/Answer application.</h2>
+        <h2>This is a sample for the Question/Answer application.</h2>
       </header>
 
       <article className="homePageMainBody">
         <div className="searchBox">
-          <h3>Type your question or type the keywords of your question.</h3>
+          <h3>Type your question or type your question keywords.</h3>
           <div className="searchInput">
             <input
               type="text"
