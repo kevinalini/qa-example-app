@@ -9,4 +9,4 @@ The application will start automatically in your default browser.
 
 ## Example of the app
 
-<www.qa-example.netlify.app>
+<qa-example.netlify.app>
