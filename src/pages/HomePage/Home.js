@@ -62,7 +62,7 @@ function Home() {
         msg: `We found ${total} appears for your search.`,
       });
     }
-  }, [QAdata]);
+  }, [QAdata, inputValue]);
 
   const handleSearch = () => {
     setQAdata(sortDataByOccurrences(inputValue));
